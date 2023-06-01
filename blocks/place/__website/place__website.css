@@ -3,3 +3,9 @@
   height: max-content;
   align-self: end;
 }
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    grid-row: 2;
+  }
+}

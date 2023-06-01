@@ -4,13 +4,13 @@
   object-fit: scale-down;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead__image {
     margin: 56px auto 0 auto;
   }
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__image {
     margin: 40px auto 0 auto;
   }

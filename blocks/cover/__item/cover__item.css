@@ -23,17 +23,12 @@
   background-color: #2A2C2F;
   opacity: 0.3;
   z-index: 1;
+  transition: opacity 0.3s ease-out;
 }
 
 .cover__item:hover::after {
-  content: "";
-  display: block;
-  width: 100%;
-  min-height: 740px;
+  min-height: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #2A2C2F;
   opacity: 0.8;
   z-index: 1;
 }
@@ -50,10 +45,6 @@
   .cover__item::after {
     min-height: 640px;
   }
-
-  .cover__item:hover::after {
-    min-height: 640px;
-  }
 } 
 
 @media screen and (max-width: 1023px) {
@@ -66,10 +57,6 @@
   .cover__item::after {
     min-height: 480px;
   }
-
-  .cover__item:hover::after {
-    min-height: 480px;
-  }
 } 
 
 @media screen and (max-width: 767px) {
@@ -80,10 +67,6 @@
   }
 
   .cover__item::after {
-    min-height: 200px;
-  }
-
-  .cover__item:hover::after {
     min-height: 200px;
   }
 }
